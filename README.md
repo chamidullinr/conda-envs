@@ -1,7 +1,10 @@
 # Conda Environments
 
 Repository of Conda Environments that can be used for different use-cases such as 
-General Machine Learning, Natural Language Processing, Computer Vision, or Deep Leaning.
+General Machine Learning, Natural Language Processing, Computer Vision, or Deep Leaning. Environments are using Python version 3.6.
+
+Keeping various conda environments is helpful when working on several machines and on different projects 
+as it gets time-consuming to install libraries and maintain correct versions.  
 
 **List of available Environments**
 * [*numpy_base*](numpy_base.yml) - General environment with packages for data processing, visualization and machine leaning. It is useful to use this as a starting point and create new environments by cloning *numpy_base*.
@@ -9,17 +12,17 @@ General Machine Learning, Natural Language Processing, Computer Vision, or Deep 
     * Packages: Numpy, Pandas, Matplotlib, Seaborn, Scipy, Scikit-learn
 
 
-* [*pytorch_cpu*](pytorch_cpu.yml) - Environment with PyTorch for Deep Learning using CPU.
+* [*pytorch_cpu*](pytorch_cpu.yml) - Environment with PyTorch for Deep Learning using CPU. 
     * Python = 3.6
     * Cloned from *numpy_base*
     * Packages: PyTorch, torchtext, tensorboard
 * [*pytorch_cpu_spyder*](pytorch_cpu_spyder.yml) - *pytorch_cpu* environment with Spyder IDE (version 4) and Jupyter Notebook.
 
 
-* [*ktrain*](ktrain.yml) - Environment with ktrain library for Deep Learning with pre-trained models such as BERT.
+* [*ktrain*](ktrain.yml) - Environment with ktrain and transformers library for Deep Learning with pre-trained models such as BERT. The main models of ktrain library are build on TensorFlow, however there are also some models such as One Shot Learning that are based on PyTorch. 
     * Python = 3.6
     * Cloned from *numpy_base*
-    * Packages: TensorFlow, ktrain
+    * Packages: ktrain, transformers, TensorFlow, PyTorch
 * [*ktrain_spyder*](ktrain_spyder.yml) - *ktrain* environment with Spyder IDE (version 4) and Jupyter Notebook.
 
 
