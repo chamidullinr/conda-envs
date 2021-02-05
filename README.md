@@ -70,5 +70,5 @@ conda env create -f environment.yml
 
 Export an active environment to a yml file:
 ```bash
-conda env export --no-builds > environment.yml
+conda env export --no-builds --from-history > environment.yml
 ```
